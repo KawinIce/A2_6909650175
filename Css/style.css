@@ -1,0 +1,23 @@
+* { box-sizing: border-box; }
+.Header{
+    text-align:center;
+    border-style:outset;
+    background-color: aquamarine;
+    color:black;
+    margin:auto;
+    font-weight: bold;
+    position: sticky;
+    top: 0;
+}
+.Content {
+   font-weight:bold;
+   text-align:center;
+   border-style:inset;
+   Padding:50px;
+   margin:auto;
+}
+.Image {
+     width: 300px;
+  height: 300px;
+  object-fit: cover;
+}
