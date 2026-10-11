@@ -21,3 +21,35 @@
   height: 300px;
   object-fit: cover;
 }
+.container {
+   border-style:inset;
+   font-weight:bold;
+   font-family:sans-serif
+}
+h2 {
+   border-style:outset;
+   margin:auto;
+   padding:10px;
+   width:250px;
+   font-size: clamp(22px, 4vw, 32px);
+}
+body {
+    margin: 0;
+    padding: 16px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+h1 {
+    font-size: clamp(28px, 5vw, 48px);
+}
+h3, h4 {
+    overflow-wrap: anywhere;
+}
+.profile-img {
+    width: 220px;
+    max-width: 100%;
+    height: auto;
+}
